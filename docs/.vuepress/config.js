@@ -1,5 +1,5 @@
 const path = require('path')
-const wikilinks = require('@spencerwoo/markdown-it-wikilink')({
+const wikilinks = require('vuepress-markdown-it-wikilink')({
   baseURL: '/',
   relativeBaseURL: '/',
   htmlAttributes: { class: 'wikilinks' },
