@@ -1,0 +1,28 @@
+{
+  "name": "vuepress-foam",
+  "version": "1.0.0",
+  "description": "Foam workspace rendered by VuePress",
+  "main": "index.js",
+  "author": "spencerwooo",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "prettier": "^2.1.1",
+    "vuepress": "^1.5.4"
+  },
+  "scripts": {
+    "janitor": "note-link-janitor ./docs",
+    "docs:dev": "yarn janitor; vuepress dev docs",
+    "docs:build": "yarn janitor; vuepress build docs"
+  },
+  "dependencies": {
+    "@andymatuschak/note-link-janitor": "^0.0.1",
+    "@spencerwoo/markdown-it-wikilink": "file:./markdown-it-wikilink",
+    "@vuepress/plugin-active-header-links": "^1.5.4",
+    "@vuepress/plugin-nprogress": "^1.5.4",
+    "markdown-it-wikilinks": "^1.0.1",
+    "vuepress-plugin-container": "^2.1.5",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-smooth-scroll": "^0.0.10"
+  }
+}

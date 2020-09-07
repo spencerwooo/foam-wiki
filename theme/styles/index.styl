@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;700&display=swap')
+@require './code'
+@require './config'
+@require './custom-blocks'
+@require './mobile'
+@require './typography'
+@require './wrapper'
+
+html, body
+  padding 0
+  margin 0
+  background-color #fff
+
+body
+  font-family $textFont
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+  font-size 16px
+  color $textColor
+
+{$contentClass}:not(.custom)
+  @extend $wrapper
+
+  a:hover
+    opacity 0.8
+    text-decoration none
+
+  p.demo
+    padding 1rem 1.5rem
+    border 1px solid #ddd
+    border-radius 4px
+
+  img
+    max-width 100%
+
+{$contentClass}.custom
+  padding 0
+  margin 0
+
+  img
+    max-width 100%
+
+a
+  font-weight 500
+  color $accentColor
+  text-decoration none
+  transition all 0.2s
+
+a.wikilinks
+  &:before
+    content '[['
+    opacity 0.8
+  &:after
+    content ']]'
+    opacity 0.8
+
+p a code
+  font-weight 400
+  color $accentColor
+
+kbd
+  background #eee
+  border solid 0.15rem #ddd
+  border-bottom solid 0.25rem #ddd
+  border-radius 0.15rem
+  padding 0 0.15em
+
+blockquote
+  font-size 1rem
+  color #999
+  border-left 0.2rem solid #dfe2e5
+  margin 1rem 0
+  padding 0.25rem 0 0.25rem 1rem
+
+  & > p
+    margin 0
+    font-family $monospaceFont
+
+ul, ol
+  padding-left 1.2em
+
+strong
+  font-weight 600
+
+h1, h2, h3, h4, h5, h6
+  font-weight 600
+  line-height 1.25
+  font-family $titleFont
+
+  {$contentClass}:not(.custom) > &
+    margin-bottom 0
+
+    &:first-child
+      margin-top -1.5rem
+      margin-bottom 1rem
+
+      + p, + pre, + .custom-block
+        margin-top 2rem
+
+  &:hover .header-anchor
+    opacity 1
+
+h1
+  font-size 2.2rem
+
+h2
+  font-size 1.65rem
+  padding-bottom 0.3rem
+  border-bottom 1px solid $borderColor
+
+h3
+  font-size 1.35rem
+
+a.header-anchor
+  font-size 0.85em
+  float left
+  margin-left -0.87em
+  padding-right 0.23em
+  margin-top 0.125em
+  opacity 0
+
+  &:hover
+    text-decoration none
+
+code, kbd, .line-number
+  font-family $monospaceFont
+
+p, ul, ol
+  line-height 2
+
+hr
+  border 0
+  border-top 1px solid $borderColor
+
+table
+  border-collapse collapse
+  margin 1rem 0
+  display block
+  overflow-x auto
+
+tr
+  border-top 1px solid #dfe2e5
+
+  &:nth-child(2n)
+    background-color #f6f8fa
+
+th, td
+  border 1px solid #dfe2e5
+  padding 0.6em 1em
+
+#nprogress
+  .bar
+    background $accentColor !important
