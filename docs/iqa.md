@@ -62,8 +62,8 @@ We can calculate SSIM with: `skimage.metrics.structural_similarity()`.
 
 ## References and articles
 
-- ​[Image Quality Assessment: A Survey](https://medium.com/@ocampor/advanced-methods-for-iqa-37581ec3c31f)​
-- ​[Papers with code: Image Quality Assessment](https://paperswithcode.com/task/image-quality-assessment)​
-- ​[Introducing NIMA: Neural Image Assessment - Google AI Blog](https://ai.googleblog.com/2017/12/introducing-nima-neural-image-assessment.html)​
-- ​[图像质量评价指标之 PSNR 和 SSIM](https://zhuanlan.zhihu.com/p/50757421)​
-- ​[图像质量评估指标 SSIM / PSNR / MSE](https://zhuanlan.zhihu.com/p/150865007)
+- [Image Quality Assessment: A Survey](https://medium.com/@ocampor/advanced-methods-for-iqa-37581ec3c31f)
+- [Papers with code: Image Quality Assessment](https://paperswithcode.com/task/image-quality-assessment)
+- [Introducing NIMA: Neural Image Assessment - Google AI Blog](https://ai.googleblog.com/2017/12/introducing-nima-neural-image-assessment.html)
+- [图像质量评价指标之 PSNR 和 SSIM](https://zhuanlan.zhihu.com/p/50757421)
+- [图像质量评估指标 SSIM / PSNR / MSE](https://zhuanlan.zhihu.com/p/150865007)

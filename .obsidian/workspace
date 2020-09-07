@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "f4ada9055173795d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d55c4b3a99b0f436",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/readme.md",
+            "mode": "source"
+          }
+        },
+        "group": "c9e07c93d3084c74"
+      },
+      {
+        "id": "4969cae0539de6c8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/readme.md",
+            "mode": "preview"
+          }
+        },
+        "group": "c9e07c93d3084c74"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b80dfe863ed3f612",
+    "type": "split",
+    "children": [
+      {
+        "id": "b485acc48ca6198e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33f24edb2e78bb23",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b82aedab274245d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7dde922b307234fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b10c2ddd87043dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fa6ede2bb37899e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/readme.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "docs/readme.md",
+    "docs/papers.md",
+    "docs/iqa.md",
+    "docs/cw-algorithm.md",
+    "docs/invisible-adv.md"
+  ]
+}

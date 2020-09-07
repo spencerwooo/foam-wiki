@@ -65,4 +65,4 @@ $$x=x_0+\eta\cdot\frac{\nabla_x\mathcal{J}(x_0 ;w)}{\|\nabla_x\mathcal{J}(x_0 ;w
 
 ## References
 
-​[https://engineering.purdue.edu/ChanGroup/ECE595/files/chapter3.pdf](https://engineering.purdue.edu/ChanGroup/ECE595/files/chapter3.pdf)
+- [https://engineering.purdue.edu/ChanGroup/ECE595/files/chapter3.pdf](https://engineering.purdue.edu/ChanGroup/ECE595/files/chapter3.pdf)
