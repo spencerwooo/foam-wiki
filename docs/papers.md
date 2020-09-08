@@ -1,5 +1,15 @@
 # Papers
 
+- [Novel image quality metrics](#novel-image-quality-metrics)
+- [Non $\ell_p$ distance measured attacks](#non-ell_p-distance-measured-attacks)
+- [Generative adversarial networks](#generative-adversarial-networks)
+
+## Novel image quality metrics
+
+| Paper Title               | Publication | Source Code                                                                         |
+| :------------------------ | :---------- | :---------------------------------------------------------------------------------- |
+| [[perceptual-similarity]] | CVPR 2018   | [richzhang/PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity) |
+
 ## Non $\ell_p$ distance measured attacks
 
 | Paper Title       | Publication |
