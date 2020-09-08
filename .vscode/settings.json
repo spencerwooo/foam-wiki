@@ -11,10 +11,12 @@
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "files.exclude": {
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/mathjax-plugin": true
   },
   "files.watcherExclude": {
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/mathjax-plugin": true
   },
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "pasteImage.path": "./assets"
