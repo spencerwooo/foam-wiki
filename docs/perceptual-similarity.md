@@ -14,7 +14,7 @@ Downloadable at: [Open Access - CVPR 2018](https://openaccess.thecvf.com/content
 
 ## Brief Introduction
 
-![](assets/2020-09-08-21-27-34.png)
+![](./assets/2020-09-08-21-27-34.png)
 
 The paper argues that widely used image quality metrics like SSIM and PSNR mentioned in [[iqa]] are *simple and shallow* functions that may fail to account for many nuances of human perception. The paper introduces a new dataset of human perceptual similarity judgements to systematically evaluate deep features across different architectures and tasks and compare them with classic metrics.
 
