@@ -6,12 +6,36 @@ const wikilinks = require('vuepress-markdown-it-wikilink')({
 })
 
 module.exports = {
-  title: 'Spencer\'s Wiki',
-  description: 'Foam as second brain, for adversarial attacks and AI security. Powered by VuePress.',
+  title: "Spencer's Wiki",
+  description:
+    'Foam as second brain, for adversarial attacks and AI security. Powered by VuePress.',
   head: [
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon-32x32.png',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon-16x16.png',
+      },
+    ],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
   ],
   theme: path.resolve(__dirname, '../../theme'),
@@ -66,7 +90,7 @@ module.exports = {
         type: 'details',
         before: (info) =>
           `<details class="custom-block details">${
-          info ? `<summary>${info}</summary>` : ''
+            info ? `<summary>${info}</summary>` : ''
           }\n`,
         after: () => '</details>\n',
       },

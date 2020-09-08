@@ -9,15 +9,15 @@
 </template>
 
 <script>
-  import Page from '@theme/components/Page.vue'
+import Page from '@theme/components/Page.vue'
 
-  export default {
-    name: 'Layout',
+export default {
+  name: 'Layout',
 
-    components: {
-      Page,
-    },
-  }
+  components: {
+    Page,
+  },
+}
 </script>
 
 <style lang="stylus" scoped>

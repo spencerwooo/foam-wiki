@@ -14,5 +14,4 @@
 .page
   padding-bottom 2rem
   display block
-
 </style>

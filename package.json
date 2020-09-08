@@ -11,13 +11,13 @@
     "vuepress": "^1.5.4"
   },
   "scripts": {
+    "format": "yarn run prettier theme/**/*.{js,vue} docs/**/*.md docs/.vuepress/config.js --write",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "@vuepress/plugin-active-header-links": "^1.5.4",
     "@vuepress/plugin-nprogress": "^1.5.4",
-    "markdown-it-wikilinks": "^1.0.1",
     "vuepress-markdown-it-wikilink": "^1.0.1",
     "vuepress-plugin-container": "^2.1.5",
     "vuepress-plugin-mathjax": "file:./mathjax-plugin",

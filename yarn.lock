@@ -4810,15 +4810,6 @@ markdown-it-table-of-contents@^0.4.0:
   resolved "https://registry.yarnpkg.com/markdown-it-table-of-contents/-/markdown-it-table-of-contents-0.4.4.tgz#3dc7ce8b8fc17e5981c77cc398d1782319f37fbc"
   integrity sha512-TAIHTHPwa9+ltKvKPWulm/beozQU41Ab+FIefRaQV1NRnpzwcV9QOe6wXQS5WLivm5Q/nlo0rl6laGkMDZE7Gw==
 
-markdown-it-wikilinks@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/markdown-it-wikilinks/-/markdown-it-wikilinks-1.0.1.tgz#fb5e0c0a217997b089b8c2dc22f5c572e64aad74"
-  integrity sha1-+14MCiF5l7CJuMLcIvXFcuZKrXQ=
-  dependencies:
-    extend "^3.0.0"
-    markdown-it-regexp "^0.4.0"
-    sanitize-filename "^1.6.1"
-
 markdown-it@^8.4.1:
   version "8.4.2"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.2.tgz#386f98998dc15a37722aa7722084f4020bdd9b54"
