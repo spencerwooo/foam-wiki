@@ -22,7 +22,7 @@
     "markdown-it-wikilinks": "^1.0.1",
     "vuepress-markdown-it-wikilink": "^1.0.1",
     "vuepress-plugin-container": "^2.1.5",
-    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-mathjax": "file:./mathjax-plugin",
     "vuepress-plugin-smooth-scroll": "^0.0.10"
   }
 }

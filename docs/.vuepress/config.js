@@ -15,15 +15,7 @@ module.exports = {
   plugins: [
     ['@vuepress/active-header-links'],
     '@vuepress/plugin-nprogress',
-    [
-      'vuepress-plugin-mathjax',
-      {
-        target: 'svg',
-        macros: {
-          '*': '\\times',
-        },
-      },
-    ],
+    'vuepress-plugin-mathjax',
     [
       'container',
       {
