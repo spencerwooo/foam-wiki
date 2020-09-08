@@ -3,7 +3,7 @@
     font-weight 600
     margin-bottom -0.4rem
 
-  &.tip, &.warning, &.danger
+  &.tip, &.warning, &.danger, &.success
     padding 0.1rem 1.5rem
     border-left-width 0.3rem
     border-left-style solid
@@ -34,6 +34,10 @@
 
     a
       color $textColor
+
+  &.success
+    background-color lighten(#3eaf7c, 97%)
+    border-color #3eaf7c
 
   &.details
     display block
