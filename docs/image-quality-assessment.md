@@ -72,7 +72,7 @@ We can calculate SSIM with: `skimage.metrics.structural_similarity()`.
 :::backlinks
 ## Referred in
 * [[perceptual-similarity]]
-	* The paper argues that widely used image quality metrics like SSIM and PSNR mentioned in [[image-quality-assessment]] are *simple and shallow* functions that may fail to account for many nuances of human perception. The paper introduces a new dataset of human perceptual similarity judgements to systematically evaluate deep features across different architectures and tasks and compare them with classic metrics.
+	* The paper argues that widely used image quality metrics like SSIM and PSNR mentioned in [[image-quality-assessment]] are *simple and shallow* functions that may fail to account for many nuances of human perception. The paper introduces a new dataset of human perceptual similarity judgments to systematically evaluate deep features across different architectures and tasks and compare them with classic metrics.
 * [[cw-algorithm]]
 	* This paradigm makes CW attack and its variants capable of being integrated with many other image quality metrics like the PSNR or the SSIM - [[image-quality-assessment]].
 * [[readme]]

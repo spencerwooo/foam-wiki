@@ -5209,6 +5209,11 @@ markdown-it-emoji@^1.4.0:
   resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
   integrity sha1-m+4OmpkKljupbfaYDE/dsF37Tcw=
 
+markdown-it-imsize@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-imsize/-/markdown-it-imsize-2.0.1.tgz#cca0427905d05338a247cb9ca9d968c5cddd5170"
+  integrity sha1-zKBCeQXQUziiR8ucqdloxc3dUXA=
+
 markdown-it-regexp@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/markdown-it-regexp/-/markdown-it-regexp-0.4.0.tgz#d64d713eecec55ce4cfdeb321750ecc099e2c2dc"

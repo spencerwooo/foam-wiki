@@ -1,4 +1,5 @@
 const path = require('path')
+const imsize = require('markdown-it-imsize')
 const wikilinks = require('vuepress-markdown-it-wikilink')({
   baseURL: '/',
   relativeBaseURL: '/',
@@ -41,7 +42,7 @@ module.exports = {
   theme: path.resolve(__dirname, '../../theme'),
   markdown: {
     extendMarkdown: (md) => {
-      md.use(wikilinks)
+      md.use(wikilinks).use(imsize)
     },
   },
   plugins: [
@@ -90,7 +91,7 @@ module.exports = {
         type: 'details',
         before: (info) =>
           `<details class="custom-block details">${
-            info ? `<summary>${info}</summary>` : ''
+          info ? `<summary>${info}</summary>` : ''
           }\n`,
         after: () => '</details>\n',
       },

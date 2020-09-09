@@ -21,6 +21,7 @@
     "@vuepress/plugin-active-header-links": "^1.5.4",
     "@vuepress/plugin-nprogress": "^1.5.4",
     "foam-cli": "^0.3.0",
+    "markdown-it-imsize": "^2.0.1",
     "vuepress-markdown-it-wikilink": "^1.0.1",
     "vuepress-plugin-container": "^2.1.5",
     "vuepress-plugin-mathjax": "file:./packages/mathjax-plugin",
