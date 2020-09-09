@@ -12,11 +12,11 @@
   "git.postCommitCommand": "sync",
   "files.exclude": {
     "**/node_modules": true,
-    "**/mathjax-plugin": true
+    "**/packages": true
   },
   "files.watcherExclude": {
     "**/node_modules": true,
-    "**/mathjax-plugin": true
+    "**/packages": true
   },
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "pasteImage.path": "./assets"
