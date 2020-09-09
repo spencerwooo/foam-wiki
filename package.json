@@ -11,16 +11,19 @@
     "vuepress": "^1.5.4"
   },
   "scripts": {
-    "format": "yarn run prettier theme/**/*.{js,vue} docs/**/*.md docs/.vuepress/config.js --write",
+    "format": "yarn run prettier ./theme/**/*.{js,vue} ./docs/**/*.md ./docs/.vuepress/config.js --write",
+    "janitor": "yarn run note-link-janitor ./docs; yarn run foam janitor ./docs;",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "@andymatuschak/note-link-janitor": "file:./packages/note-link-janitor",
     "@vuepress/plugin-active-header-links": "^1.5.4",
     "@vuepress/plugin-nprogress": "^1.5.4",
+    "foam-cli": "^0.3.0",
     "vuepress-markdown-it-wikilink": "^1.0.1",
     "vuepress-plugin-container": "^2.1.5",
-    "vuepress-plugin-mathjax": "file:./mathjax-plugin",
+    "vuepress-plugin-mathjax": "file:./packages/mathjax-plugin",
     "vuepress-plugin-smooth-scroll": "^0.0.10"
   }
 }
