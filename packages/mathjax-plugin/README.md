@@ -1,3 +1,5 @@
+# README
+
 # [vuepress-plugin-mathjax](https://vuepress.github.io/plugins/mathjax/)
 
 [![npm](https://img.shields.io/npm/v/vuepress-plugin-mathjax.svg)](https://www.npmjs.com/package/vuepress-plugin-mathjax)
