@@ -81,7 +81,7 @@ module.exports = {
       {
         type: 'backlinks',
         before: () => `<div class="custom-block backlinks">\n`,
-        after: () => '</div>/n',
+        after: () => '</div>\n',
       },
     ],
     [
