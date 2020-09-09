@@ -1,9 +1,11 @@
+@require './typography'
+
 .custom-block
   .custom-block-title
     font-weight 600
     margin-bottom -0.4rem
 
-  &.tip, &.warning, &.danger, &.success
+  &.tip, &.warning, &.danger, &.success, &.backlinks
     padding 0.1rem 1.5rem
     border-left-width 0.3rem
     border-left-style solid
@@ -12,6 +14,22 @@
   &.tip
     background-color lighten($accentColor, 97%)
     border-color $accentColor
+
+  &.backlinks
+    background-color lighten($accentColor, 97%)
+    border none
+    padding 0.5em 1em
+    margin-top 2em
+    border-radius 0.5em
+
+    h2
+      font-size 1.2em
+      border none
+      padding 0
+      font-family $textFont
+
+    .custom-block-title
+      display none
 
   &.warning
     background-color rgba(255, 229, 100, 0.3)
