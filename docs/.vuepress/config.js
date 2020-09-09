@@ -52,28 +52,28 @@ module.exports = {
       'container',
       {
         type: 'tip',
-        defaultTitle: 'TIP'
+        defaultTitle: 'TIP',
       },
     ],
     [
       'container',
       {
         type: 'warning',
-        defaultTitle: 'WARNING'
+        defaultTitle: 'WARNING',
       },
     ],
     [
       'container',
       {
         type: 'danger',
-        defaultTitle: 'DANGER'
+        defaultTitle: 'DANGER',
       },
     ],
     [
       'container',
       {
         type: 'success',
-        defaultTitle: 'SUCCESS'
+        defaultTitle: 'SUCCESS',
       },
     ],
     [
@@ -81,7 +81,7 @@ module.exports = {
       {
         type: 'backlinks',
         before: () => `<div class="custom-block backlinks">\n`,
-        after: () => '</div>/n'
+        after: () => '</div>/n',
       },
     ],
     [
