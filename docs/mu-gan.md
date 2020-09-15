@@ -5,7 +5,14 @@
 - [Brief introduction](#brief-introduction)
 - [Main contributions](#main-contributions)
 - [Method overview](#method-overview)
+	- [Generator](#generator)
+		- [Attention U-Net Connection: AUCs](#attention-u-net-connection-aucs)
+		- [Self-attention](#self-attention)
+	- [Discriminator](#discriminator)
+	- [Loss functions](#loss-functions)
 - [Experiments](#experiments)
+- [Conclusion](#conclusion)
+- [Referred in](#referred-in)
 
 :::tip 🌏 Source
 Available at: <https://arxiv.org/abs/2009.04177>. Source code at: [SuSir1996/MU-GAN](https://github.com/SuSir1996/MU-GAN).
@@ -37,7 +44,45 @@ Thus, a desired model needs to have the ability to decouple attributes in order 
 
 ## Method overview
 
+![](./assets/2020-09-15-16-30-45.png =400x)
+
+### Generator
+
+#### Attention U-Net Connection: AUCs
+
+For detailed retention and blurry image problems, the paper replaces the original asymmetric CNN-based encoder-decoder with a symmetrical Attention U-Net architecture. Besides, instead of directly connecting an encoder to a decode via skip-connections, **the paper present AUCs to selectively transfer attribute-irrelevant representations from an encoder.** Then, AUCs concatenate encoder representation with decoder ones to improve image quality and detail preservation.
+
+![](./assets/2020-09-15-16-32-53.png)
+
+**With an attention mechanism**, AUCs are capable of **filtering out representations related to original attributes** while **preserving attribute-irrelevant details**. It can **promote the image fidelity** without **weakening attribute manipulation ability**.
+
+Self-attention mechanism.
+
+![](./assets/2020-09-15-16-33-10.png =400x)
+
+#### Self-attention
+
+### Discriminator
+
+real / fake: two sub-networks.
+
+### Loss functions
+
+MU-GAN
+
+- Generator = $G_{enc}$ + $G_{dec}$
+- Loss:
+    - Adversarial loss
+    - Attribute classification
+    - Reconstruction loss
+
 ## Experiments
+
+Compare `MU-GAN` with `AttGAN` and `STGAN`.
+
+## Conclusion
+
+Multi-attention mechanism: AUCs and self-attention mechanisms → into a symmetrical U-Net-like architecture.
 
 :::backlinks
 ## Referred in
