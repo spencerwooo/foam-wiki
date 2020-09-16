@@ -2,6 +2,7 @@
 
 - [Novel image quality metrics](#novel-image-quality-metrics)
 - [Non $\ell_p$ distance measured attacks](#non-ell_p-distance-measured-attacks)
+- [New attack methods](#new-attack-methods)
 - [Generative adversarial networks](#generative-adversarial-networks)
 - [Referred in](#referred-in)
 
@@ -19,6 +20,12 @@
 | [[robust-adversarial-perturbation]] | CVPR 2020   |
 | [[perceptual-color-distance]]       | CVPR 2020   |
 | [[adversarial-camouflage]]          | CVPR 2020   |
+
+## New attack methods
+
+| Paper Title                            | Publication |
+| :------------------------------------- | :---------- |
+| [[deep-image-super-resolution-attack]] | ICCV 2019   |
 
 ## Generative adversarial networks
 
@@ -39,6 +46,7 @@
 [robust-adversarial-perturbation]: robust-adversarial-perturbation.md "Robust Adversarial Perturbation"
 [perceptual-color-distance]: perceptual-color-distance.md "Perceptual Color Distance"
 [adversarial-camouflage]: adversarial-camouflage.md "Adversarial Camouflage"
+[deep-image-super-resolution-attack]: deep-image-super-resolution-attack.md "Deep Image Super Resolution Attack"
 [mu-gan]: mu-gan.md "MU-GAN"
 [adversarial-texture-optimization]: adversarial-texture-optimization.md "Adversarial Texture Optimization"
 [readme]: readme.md "🔬 Spencer's Wiki"

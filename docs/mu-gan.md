@@ -56,11 +56,11 @@ For detailed retention and blurry image problems, the paper replaces the origina
 
 **With an attention mechanism**, AUCs are capable of **filtering out representations related to original attributes** while **preserving attribute-irrelevant details**. It can **promote the image fidelity** without **weakening attribute manipulation ability**.
 
+#### Self-attention
+
 Self-attention mechanism.
 
 ![](./assets/2020-09-15-16-33-10.png =400x)
-
-#### Self-attention
 
 ### Discriminator
 
@@ -68,17 +68,21 @@ real / fake: two sub-networks.
 
 ### Loss functions
 
-MU-GAN
+In MU-GAN, the generator $G$ consists of two sub-networks: $G_{enc}$ + $G_{dec}$.
 
-- Generator = $G_{enc}$ + $G_{dec}$
-- Loss:
-    - Adversarial loss
-    - Attribute classification
-    - Reconstruction loss
+Loss is calculated as three parts:
+
+- Adversarial loss
+- Attribute classification
+- Reconstruction loss
+
+Overall objective:
 
 ## Experiments
 
 Compare `MU-GAN` with `AttGAN` and `STGAN`.
+
+![](./assets/2020-09-16-20-30-44.png)
 
 ## Conclusion
 
